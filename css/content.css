@@ -1,0 +1,36 @@
+@import url(https://db.onlinewebfonts.com/c/fc1030bfbd93e6c6e5e8785e9532e4d9?family=Wigrum+Web);
+.content{
+    min-height: 100vh;
+}
+.Our_Cleaning_Services{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Our_Cleaning_Services h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 58.8px;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+    width: 85%;
+    color: rgb(75, 91, 104);
+    min-height: 90px;
+}
+.Our_Cleaning_Services p{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    width: 60%;
+    font-weight: 300;
+    color: #677D8F;
+}
+.Our_Cleaning_Services .lign{
+    min-width: 30%;
+    border-bottom: 0.2px solid rgb(226, 226, 226);
+}

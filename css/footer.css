@@ -1,0 +1,223 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #f9fff6;
+    position: relative;
+    padding-bottom: 30px;
+}
+.footer{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-bottom: 5px;
+}
+
+
+.footer-container .copyright{
+    color: #3b3b3b;
+    position: absolute;
+    bottom: 1px;
+    font-size: 13px;
+}
+.footer-part-one{
+    display: flex;
+    gap: 80px;
+    
+}
+
+.pages-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pages-container h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #56cc84;
+}
+
+.pages-container a{
+    color: rgb(77, 77, 77);
+}
+
+.pages-container a:hover{
+    color: #56cc84;
+}
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.services-container h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #56cc84;
+}
+
+.services-container a{
+    color: rgb(77, 77, 77);
+}
+
+.services-container a:hover{
+    color: #56cc84;
+}
+
+.footer-part-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.number{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    margin-top: 10px;
+}
+.number i{
+    font-size: 27px;
+    color: #2e9b58;
+}
+
+.contacts{
+    display: flex;
+    gap: 10px;
+}
+
+.contacts i{
+    font-size: 28px;
+}
+
+.contacts .elem1{
+    color: #838383;
+    transition: 0.3s;
+}
+.contacts .elem1:hover{
+    color: #ff6600;
+    transition: 0.3s;
+}
+.contacts .elem2{
+    color: #838383;
+    transition: 0.3s;
+}
+.contacts .elem2:hover{
+    color: #0099ff;
+    transition: 0.3s;
+}
+.contacts .elem3{
+    color: #838383;
+    transition: 0.3s;
+}
+.contacts .elem3:hover{
+    color: #0077ff;
+    transition: 0.3s;
+}
+
+.email form {
+    display: flex;
+    gap: 20px;
+}
+
+.email input{
+    height: 50px;
+    width: 320px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #56cc84;
+    padding-left: 7px;
+}
+
+.email button{
+    height: 50px;
+    width: 120px;
+    outline: none;
+    border: none;
+    background-color: #56cc84;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+.email button:hover{
+    background-color: #2e9b58;
+    cursor: pointer;
+}
+
+@media (max-width: 1580px) {
+    .footer-container .footer-line{
+        width: 100%;
+    }
+    .footer{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .footer{
+        padding: 0 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pages-container h1{
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+    
+    .pages-container a{
+        font-size: 14px;
+    }
+    
+    .services-container h1{
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .services-container a{
+        font-size: 14px;
+    }
+
+    .contacts i{
+        font-size: 23px;
+    }
+
+    .email input{
+        height: 40px;
+        width: 250px;
+    }
+
+    .email button{
+        height: 40px;
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .number{
+        display: flex;
+        gap: 10px;
+        align-items: end;
+        margin-top: 10px;
+    }
+    .number i{
+        font-size: 24px;
+    }
+    .number h3{
+        font-size: 16px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+        gap: 50px;
+        width: 80%;
+        align-items: center;
+    }
+    
+}

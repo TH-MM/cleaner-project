@@ -1,0 +1,737 @@
+/* EXPERIANCE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+.section-title {
+    color: rgb(39, 39, 39);
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.section-description {
+    width: 640px;
+    text-align: center;
+}
+
+.experience-container {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.experience-container img {
+    width: 50%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 18px;
+}
+
+.details h2 {
+    color: rgb(66, 66, 66);
+    font-size: 25px;
+}
+
+.details p {
+    opacity: 0.7;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+/* MESSION AND VISION SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+.mission-vision-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 80px;
+    height: 200px;
+
+}
+
+.mission-vision-container .mission {
+    width: 500px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.mission-vision-container .vision {
+    width: 500px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+/* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+.our-team-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.persone-card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 25px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 30px;
+}
+
+.persone-card .image {
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.persone-card .line {
+    width: 80px;
+    background-color: #56cc84;
+}
+
+.persone-card .info {
+    text-align: center;
+}
+
+/* VALUES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+.values-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.values-container img {
+    width: 650px;
+    object-fit: cover;
+}
+
+.values-container .detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    gap: 18px;
+    height: 400px;
+}
+
+.detail h3 {
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+}
+
+.detail p {
+    opacity: 0.7;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.values-container .detail .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.values-container .detail .icone {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: -30px;
+    top: 3px;
+}
+
+/* WHY US ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.why-us-container {
+    display: flex;
+    justify-content: center;
+}
+
+.why-us-container div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.why-us-container div .reason-card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 30px;
+    height: 385px;
+}
+
+.why-us-container div .reason-card .image {
+    width: 110px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    border-radius: 100%;
+    box-shadow: 0px 5px 20px rgba(44, 44, 44, 0.2);
+}
+
+.why-us-container div .reason-card .image img {
+    width: 50px;
+    height: 50px;
+}
+
+.why-us-container div .reason-card h3 {
+    color: gray;
+    text-align: center;
+}
+
+.why-us-container div .reason-card .info {
+    text-align: center;
+}
+
+@media (max-width: 1280px) {
+
+    /* EXPERIANCE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+    .experience-container img {
+        height: 400px;
+    }
+
+    .details h2 {
+        color: rgb(66, 66, 66);
+        font-size: 22px;
+    }
+
+    .details p {
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+
+    /* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .our-team-container {
+        gap: 30px;
+    }
+
+    .persone-card {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .persone-card .image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .persone-card .name-job {
+        text-align: center;
+    }
+
+    .persone-card .name-job h3 {
+        font-size: 17px;
+    }
+
+    .persone-card .info {
+        font-size: 14px;
+    }
+
+    /* VALUES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+    .values-container img {
+        width: 600px;
+    }
+
+    .values-container .detail {
+        width: 400px;
+        height: 400px;
+    }
+
+    .detail h3 {
+        font-size: 18px;
+    }
+
+    .detail p {
+        font-size: 14px;
+    }
+
+    .values-container .detail .icone {
+        position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -30px;
+    top: 3px;
+    }
+
+    /* MESSION AND VISION SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .mission-vision-container .mission {
+        width: 450px;
+    }
+
+    .mission-vision-container .vision {
+        width: 450px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /* EXPERIANCE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .experience-container {
+        gap: 35px;
+        flex-direction: column;
+        padding-bottom: 40px;
+        background: transparent;
+        border-bottom: 1px solid rgb(190, 190, 190);
+    }
+
+    .experience-container img {
+        width: 750px;
+        object-fit: cover;
+        height: 500px;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        gap: 18px;
+    }
+
+    .details h2 {
+        color: rgb(66, 66, 66);
+        font-size: 25px;
+    }
+
+    .details p {
+        opacity: 0.7;
+        line-height: 25px;
+        font-size: 17px;
+    }
+
+
+    /* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .our-team-container {
+        gap: 30px;
+    }
+
+    .persone-card {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .persone-card .image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .persone-card .name-job {
+        text-align: center;
+    }
+
+    .persone-card .name-job h3 {
+        font-size: 17px;
+    }
+
+    .persone-card .info {
+        font-size: 14px;
+    }
+
+    /* VALUES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+    .values-container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .values-container img {
+        width: 650px;
+        object-fit: cover;
+    }
+
+    .values-container .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 500px;
+        gap: 18px;
+        height: 400px;
+    }
+
+    .detail h3 {
+        color: rgb(66, 66, 66);
+        font-size: 20px;
+    }
+
+    .detail p {
+        opacity: 0.7;
+        line-height: 25px;
+        font-size: 17px;
+    }
+
+    .values-container .detail .info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+    }
+
+    .values-container .detail .icone {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: -30px;
+        top: 3px;
+    }
+
+    /* MESSION AND VISION SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .mission-vision-container {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .mission-vision-container .mission {
+        width: 500px;
+    }
+
+    .mission-vision-container .vision {
+        width: 500px;
+    }
+
+    /* WHY US ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .why-us-container div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .why-us-container div .reason-card .image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .why-us-container div .reason-card h3 {
+        font-size: 18px;
+    }
+
+    .why-us-container div .reason-card .info {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* EXPERIANCE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .experience-container img {
+        width: 600px;
+        object-fit: cover;
+        height: 400px;
+    }
+
+    .details {
+        width: 580px;
+    }
+
+    .details h2 {
+        color: rgb(66, 66, 66);
+        font-size: 22px;
+    }
+
+    .details p {
+        opacity: 0.7;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+
+    /* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .our-team-container {
+        gap: 30px;
+    }
+
+    .persone-card {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .persone-card .image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .persone-card .name-job {
+        text-align: center;
+    }
+
+    .persone-card .name-job h3 {
+        font-size: 17px;
+    }
+
+    .persone-card .info {
+        font-size: 14px;
+    }
+
+    /* VALUES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+    .values-container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .values-container img {
+        width: 550px;
+        object-fit: cover;
+    }
+
+    .values-container .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 450px;
+        gap: 18px;
+        height: 400px;
+    }
+
+    .detail h3 {
+        color: rgb(66, 66, 66);
+        font-size: 18px;
+    }
+
+    .detail p {
+        opacity: 0.7;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .values-container .detail .info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+    }
+
+    .values-container .detail .icone {
+        position: absolute;
+    width: 19px;
+    height: 19px;
+    left: -30px;
+    top: 3px;
+    }
+
+    /* MESSION AND VISION SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .mission-vision-container {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .mission-vision-container .mission {
+        width: 500px;
+    }
+
+    .mission-vision-container .vision {
+        width: 500px;
+    }
+
+    /* WHY US ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .why-us-container div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .why-us-container div .reason-card {
+        width: 300px;
+        height: 320px;
+    }
+
+    .why-us-container div .reason-card .image {
+        width: 90px;
+        height: 90px;
+    }
+
+    .why-us-container div .reason-card h3 {
+        font-size: 16px;
+    }
+
+    .why-us-container div .reason-card .info {
+        font-size: 12px;
+    }
+
+    .section-description {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .section-title {
+        font-size: 20px;
+        color: rgb(39, 39, 39);
+    }
+}
+
+@media (max-width: 640px) {
+
+    /* EXPERIANCE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .experience-container img {
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
+    }
+
+    .details {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .details h2 {
+        color: rgb(66, 66, 66);
+        font-size: 19px;
+    }
+
+    .details p {
+        opacity: 0.7;
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+
+    /* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .our-team-container {
+        gap: 30px;
+    }
+
+    .persone-card {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .persone-card .image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .persone-card .name-job {
+        text-align: center;
+    }
+
+    .persone-card .name-job h3 {
+        font-size: 17px;
+    }
+
+    .persone-card .info {
+        font-size: 14px;
+    }
+
+    /* VALUES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+    .values-container {
+        gap: 50px;
+    }
+
+    .values-container img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .values-container .detail {
+        width: 100%;
+        gap: 18px;
+        height: auto;
+        padding: 0 30px;
+    }
+
+    .detail h3 {
+        color: rgb(66, 66, 66);
+        font-size: 18px;
+    }
+
+    .detail p {
+        opacity: 0.7;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .values-container .detail .info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+    }
+
+    .values-container .detail .icone {
+    
+    }
+
+    /* MESSION AND VISION SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+    .mission-vision-container {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .mission-vision-container .mission {
+        width: 100%;
+    }
+
+    .mission-vision-container .vision {
+        width: 100%;
+    }
+
+    /* WHY US ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .why-us-container div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .why-us-container div .reason-card {
+        width: 300px;
+        height: 320px;
+    }
+
+    .why-us-container div .reason-card .image {
+        width: 90px;
+        height: 90px;
+    }
+
+    .why-us-container div .reason-card h3 {
+        font-size: 16px;
+    }
+
+    .why-us-container div .reason-card .info {
+        font-size: 12px;
+    }
+
+    .section-description {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .section-title {
+        font-size: 20px;
+        color: rgb(39, 39, 39);
+    }
+
+}

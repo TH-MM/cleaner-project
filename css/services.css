@@ -1,0 +1,249 @@
+
+.services-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    z-index: 1;
+    box-shadow:  0 0 20px rgb(0,0,0,0.3);
+    border-radius: 50px;
+    position: fixed;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 30px;
+}
+
+.services-list a{
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    font-size: 18px;
+}
+.service-container{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.service-article{
+    display: flex;
+    align-items: start;
+    gap: 45px;
+    margin-top: 30px;
+}
+
+.service-article .service-details{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 20px;
+}
+
+.service-article img{
+    object-fit: cover;
+    height: 450px;
+    width: 650px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.service-article h1{
+    letter-spacing: 1.5px;
+}
+
+.service-article p{
+    opacity: 0.7;
+}
+
+.line{
+    width: 450px;
+    height: 1px;
+    background-color: rgb(190, 190, 190);
+    
+}
+.service-article .list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 15px;
+}
+
+.service-article .list .list-content{ 
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+}
+
+.service-article .list .list-content h4::before{ 
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 10px;
+    height: 5px;
+    width: 5px;
+    background-color: black;
+}
+
+@media (max-width: 1536px) {
+    .service-article p{
+        font-size: 14px;
+    }
+
+    .service-article .service-details{
+        width: 500px;
+    }
+
+    .service-article img{
+        object-fit: cover;
+        height: 380px;
+        width: 550px;
+        margin-top: 15px;
+        border-radius: 20px;
+    }
+
+    .service-article h1{
+        font-size: 25px;
+    }
+
+    .service-article h3{
+        font-size: 16px;
+    }
+
+    .service-article h4{
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 1190px) {
+    .service-article{
+        flex-direction: column;
+        align-items: center;
+        justify-content: initial;
+    }
+
+    .service-article .service-details{
+        width: 650px;
+    }
+
+    .service-article img{
+        width: 650px;
+        margin-top: 0;
+    }
+
+    .service-details {
+        order: 2;
+    }
+
+    .service-image {
+        order: 1;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .page-container h1{
+        font-size: 30px;
+    }
+    
+    .service-article{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .service-article .service-details{
+        width: 550px;
+    }
+
+    .service-article img{
+        width: 550px;
+    }
+
+    
+    
+}
+
+@media (max-width: 640px) {
+    .service-article{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .service-article .service-details{
+        width: 100%;
+    }
+
+    .service-article img{
+        width: 100%;
+    }
+
+
+    .service-article h1{
+        font-size: 20px;
+    }
+
+    .service-article h3{
+        font-size: 16px;
+    }
+
+    .service-article h4{
+        font-size: 13px;
+    }
+
+    .line{
+        width: 150px;
+        height: 1px;
+        background-color: rgb(190, 190, 190);
+        
+    }
+
+    .service-container{
+        gap: 15px;
+        padding: 5px;
+        width: 100;
+    }
+    
+}
+
+@media (max-width: 483px) {
+    .service-article{
+        gap: 30px;
+        margin-top: 20px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .service-article .service-details{
+        width: 90%;
+    }
+
+    .service-article .service-image{
+        width: 90%;;
+    }
+
+    .service-article img{
+        width: 100%;
+    }
+
+
+    .service-article p{
+        font-size: 10px;
+        width: 100%;
+    }
+    .service-article h1{
+        font-size: 19px;
+    }
+
+    .service-article h3{
+        font-size: 15px;
+    }
+
+    .service-article h4{
+        font-size: 12px;
+    }
+    
+}

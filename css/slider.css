@@ -1,0 +1,117 @@
+
+.container_slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid black;
+}
+    .swiper-container {
+        border: 1px solid black;
+      height: 520px;
+      max-width: 1300px;
+      min-width: 200px;
+      width: 90%;
+      /* border: 1px solid black; */
+    }
+
+    .swiper-slide {
+      margin-top: 20px;
+      max-height: 460px;
+      max-width: 370px;
+      min-width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 8px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .swiper-slide:hover {
+      max-height: 455px;
+      cursor: pointer;
+      transition: all 0.1.5s;
+
+    }
+    .swiper-slide img{
+        max-width: 100px;
+    }
+    .swiper-slide h2{
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;        
+        width: 85%;
+        color: rgb(75, 91, 104);
+    }
+    .swiper-slide ul{
+        /* border: 1px solid black; */
+        min-height: 22%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        min-width: 90%;
+    }
+    .swiper-slide li{
+        /* border: 1px solid black; */
+        text-align: center;
+        /* margin-top: 25px; */
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        width: 60%;
+        font-weight: 300;
+        color: #677D8F;
+    }
+    .swiper-slide li i{
+        color: #4ba0e8;
+    }
+
+    .swiper-slide a{
+        padding: 10px 39px;
+        border: 2px solid #4ba0e8;
+        border-radius: 23px;
+        color: #677D8F;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 1.1px;
+    }
+
+    .swiper-slide a:hover{
+        background-color: #4ba0e8;
+        color: #ffffff;
+        transition: all 0.6s;
+    }
+    .slid1{margin-left: 30px;}
+
+    @media(max-width: 1280px){
+        .swiper-container {
+            height: 520px;
+            max-width: 1300px;
+            min-width: 200px;
+            width: 83%;
+            /* border: 1px solid black; */
+          }
+        .swiper-slide {
+            margin-top: 20px;
+            max-height: 460px;
+            max-width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            border-radius: 8px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          }
+          .slid1{margin-left: 10px;}
+
+    }
+
+
+
+
+    
+
+
+    
