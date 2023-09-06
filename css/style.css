@@ -2,29 +2,48 @@
 
 @import url(https://db.onlinewebfonts.com/c/fc1030bfbd93e6c6e5e8785e9532e4d9?family=Wigrum+Web);
 
-
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'Mulish', sans-serif;
+	/* overflow: hidden; */
+}
 body{
 	line-height: 1.5;
 	font-family: "Wigrum",sans-serif;
 	font-weight: 400;
+	overflow-x: hidden;
 }
 body.hidden-scrolling{
 	overflow-y: hidden;
-}
-*{
-	margin:0;
-	box-sizing: border-box;
 }
 .container{
 	max-width: 1170px;
 	margin:auto;
 }
+.obtn_devis button{
+	padding:10px 20px;
+	background:#56cc84;
+	color:white;
+	border-radius:23px
+}
+
 ul{
 	list-style: none;
 	margin:0;
 	padding:0;
 }
-a{
+.logo a{
+	text-decoration: none;
+}
+li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+li a{
 	text-decoration: none;
 }
 /*header*/
@@ -34,13 +53,13 @@ a{
 	left:0;
 	top:0;
 	z-index: 99;
-	height: 7vh;
+	padding: 5px;
 	background-color: white;
 	position: fixed;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .header-main{
-	height: 7vh;
+	/* background-color: #ffffff; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -56,25 +75,26 @@ a{
 	color: #56cc84;
 	font-weight: 600;
 }
-
-.header .logo a img{
-	object-fit: cover;
-	width: 180px;
-	padding-top: 5px;
-}
 .header .nav-menu{
 	padding: 0 15px;
+}
+.header .menu {
+	margin-bottom: 0;
+	padding: 0;
 }
 .header .menu > .menu-item{
 	display: inline-block;
 	margin-left: 30px;
 	position: relative;
+	padding: 0;
+}
+.a-item{
+	color: rgb(75, 91, 104);
 }
 .header .menu > .menu-item > a{
 	display: block;
 	padding: 12px 0;
 	font-size: 16px;
-	color: rgb(75, 91, 104);
 	text-transform: capitalize;
 	font-weight: 600;
 	transition: all 0.3s ease;
@@ -102,14 +122,14 @@ a{
 }
 .header .menu > .menu-item:hover > a .plus:before,
 .header .menu > .menu-item:hover > a .plus:after{
-   background-color: #4CAF50;
+   background-color: #56cc84;
 }
 .header .menu > .menu-item > a .plus:after{
    transform: translate(-50%,-50%) rotate(-90deg);	
 }
 .header .menu > .menu-item > .sub-menu > .menu-item > a:hover,
 .header .menu > .menu-item:hover > a{
-	color: #4CAF50;
+	color: #56cc84;
 }
 .header .menu > .menu-item > .sub-menu{
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -119,7 +139,7 @@ a{
 	top:100%;
 	background-color: #ffffff;
 	padding: 10px 0;
-	/* border-top: 3px solid #4CAF50; */
+	/* border-top: 3px solid #56cc84; */
 	transform: translateY(10px);
 	transition: all 0.3s ease;
 	opacity:0;
@@ -205,27 +225,12 @@ a{
 	transition: all 0.3s ease;
 }
 
-/*home section*/
-.home-section{
-	width: 100%;
-	display: block;
-	min-height: 100vh;
-	background-image: url('https://centrallimp.com.br/wp-content/uploads/2019/11/post-05-11.png');
-	background-position: center top;
-	background-size: cover;
-}
-.home-section-secend{
-		background-color: rgba(0, 0, 0, 0.343);
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-}
+
 
 
 /* responsive */
 
-@media(max-width: 991px){
+@media(max-width: 1060px){
 	.header .menu-overlay.active{
 	visibility: visible;
 	opacity: 1;
@@ -261,12 +266,12 @@ a{
 		padding: 12px 15px;
 		border-bottom: 0.1px solid #e8e8e8;
 	}
-	.header .menu > .menu-item:first-child > a{
+	/* .header .menu > .menu-item:first-child > a{ */
 	    /* border-bottom: 0.06px solid #b8b8b8;	 */
-	}
+	/* } */
 	.header .menu > .menu-item > a .plus:before, 
 	.header .menu > .menu-item > a .plus:after{
-		background-color: #4CAF50;
+		background-color: #56cc84;
 	}
 	.header .menu > .menu-item-has-children.active > a .plus:after{
         transform: translate(-50%,-50%) rotate(0deg);
@@ -295,10 +300,23 @@ a{
 	.header .open-nav-menu{
 		display: flex;
 	}
-
-
-	.containerr h1{
-		font-size: 40px;
+	.obtn_devis{
+		background-color: #56cc84;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5px;
 	}
+	.obtn_devis button{
+		border: none;
+	}
+
+
 }
+
+
+
+
+/* modal */
+
 

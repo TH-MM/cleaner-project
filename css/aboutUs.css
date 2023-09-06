@@ -35,7 +35,7 @@
 
 .details h2 {
     color: rgb(66, 66, 66);
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .details p {
@@ -71,6 +71,26 @@
 
 /* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
 
+.our-team-container .slider {
+    width: 900px;
+    margin: 0 auto;
+    visibility: visible;
+    position: absolute;
+    text-align: center;
+}
+
+.our-team-container .container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.our-team-container .card-container {
+    display: flex;
+    justify-content: center;
+}
+
+
 .our-team-container {
     display: flex;
     align-items: center;
@@ -78,6 +98,7 @@
     flex-wrap: wrap;
     gap: 50px;
     padding-bottom: 50px;
+    height: 500px;
 }
 
 .persone-card {
@@ -89,6 +110,7 @@
     gap: 25px;
     background-color: rgb(247, 247, 247);
     border-radius: 30px;
+    margin: 15px;
 }
 
 .persone-card .image {
@@ -201,10 +223,13 @@
 .why-us-container div .reason-card h3 {
     color: gray;
     text-align: center;
+    font-size: 20PX;
 }
 
 .why-us-container div .reason-card .info {
     text-align: center;
+    font-size: 14px;
+    color: rgb(173, 173, 173);
 }
 
 @media (max-width: 1280px) {
@@ -226,32 +251,6 @@
 
 
     /* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
-
-    .our-team-container {
-        gap: 30px;
-    }
-
-    .persone-card {
-        width: 300px;
-        padding: 15px;
-    }
-
-    .persone-card .image {
-        width: 170px;
-        height: 170px;
-    }
-
-    .persone-card .name-job {
-        text-align: center;
-    }
-
-    .persone-card .name-job h3 {
-        font-size: 17px;
-    }
-
-    .persone-card .info {
-        font-size: 14px;
-    }
 
     /* VALUES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
     .values-container img {
@@ -324,35 +323,6 @@
         opacity: 0.7;
         line-height: 25px;
         font-size: 17px;
-    }
-
-
-    /* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
-
-    .our-team-container {
-        gap: 30px;
-    }
-
-    .persone-card {
-        width: 300px;
-        padding: 15px;
-    }
-
-    .persone-card .image {
-        width: 170px;
-        height: 170px;
-    }
-
-    .persone-card .name-job {
-        text-align: center;
-    }
-
-    .persone-card .name-job h3 {
-        font-size: 17px;
-    }
-
-    .persone-card .info {
-        font-size: 14px;
     }
 
     /* VALUES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
@@ -441,7 +411,9 @@
 @media (max-width: 768px) {
 
     /* EXPERIANCE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
-
+.our-team-container .slider {
+        width: 95%;
+    }
     .experience-container img {
         width: 600px;
         object-fit: cover;
@@ -463,34 +435,6 @@
         font-size: 14px;
     }
 
-
-    /* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
-
-    .our-team-container {
-        gap: 30px;
-    }
-
-    .persone-card {
-        width: 300px;
-        padding: 15px;
-    }
-
-    .persone-card .image {
-        width: 170px;
-        height: 170px;
-    }
-
-    .persone-card .name-job {
-        text-align: center;
-    }
-
-    .persone-card .name-job h3 {
-        font-size: 17px;
-    }
-
-    .persone-card .info {
-        font-size: 14px;
-    }
 
     /* VALUES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
     .values-container {
@@ -592,7 +536,9 @@
 @media (max-width: 640px) {
 
     /* EXPERIANCE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
-
+    .our-team-container .slider {
+        width: 100%;
+    }
     .experience-container img {
         width: 100%;
         object-fit: cover;
@@ -617,31 +563,19 @@
 
 
     /* OUR TEAM SECTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
-
-    .our-team-container {
-        gap: 30px;
-    }
-
-    .persone-card {
-        width: 300px;
-        padding: 15px;
-    }
-
     .persone-card .image {
-        width: 170px;
-        height: 170px;
+        width: 100px;
+        height: 100px;
     }
 
-    .persone-card .name-job {
-        text-align: center;
+    .persone-card .line {
+        width: 80px;
+        background-color: #56cc84;
     }
-
-    .persone-card .name-job h3 {
-        font-size: 17px;
-    }
-
+    
     .persone-card .info {
-        font-size: 14px;
+        text-align: center;
+        font-size: 12px;
     }
 
     /* VALUES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */

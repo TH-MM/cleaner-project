@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.inset-pad{
+    background-color: #f5f6f7;
+    box-sizing :border-box;
+    color: rgb(103, 125, 143);
+    display :block;
+    float :left;
+    font-size :16px;
+    font-weight :400;
+    min-height :602px;
+    max-height :none;
+    line-height :27px;
+    min-height :1px;
+    padding-bottom :100px;
+    padding-left :15px;
+    padding-right :15px;
+    padding-top :100px;
+    position :relative;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+.h2_widget{
+    box-sizing :border-box;
+    color :rgb(75, 91, 104);
+    display :block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size :36px;
+    font-weight :400;
+    line-height :40px;
+    margin-block-end :30px;
+    margin-block-start :0px;
+    margin-bottom :20px;
+    margin-inline-end :0px;
+    margin-inline-start :0px;
+    margin-left :0px;
+    margin-right :0px;
+    margin-top :0px;
+    text-size-adjust :100%;
+    width :470px;
+}
+.h5_widget{
+    width: 283px;
+    box-sizing :border-box;
+    color :rgb(75, 91, 104);
+    display :block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size :18px;
+    font-weight :600;
+    line-height :28px;
+    margin-block-end :15px;
+    margin:0;
+    margin-bottom :15px;
+    padding: 0;
+}
+.p1_widget{
+    box-sizing :border-box;
+    color :rgb(103, 125, 143);
+    display :block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size :16px;
+    font-weight :400;
+    /* height :84px; */
+    line-height :27px;
+    text-size-adjust :100%;
+    max-width: 500px;
+    width :100%;
+    min-width :300px;
+}
+.animation{
+    background-color :#56cc84;
+    border-bottom-left-radius :55px;
+    border-bottom-right-radius :55px;
+    border-top-left-radius :55px;
+    border-top-right-radius :55px;
+    color :rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    width:230px;
+}
+
+.animation:hover{
+    background-color :#56cc84;
+    transition: all 0.5s;
+}
+.image-container-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 10px;
+}
+.image-container-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.image{
+    max-width: 300px;
+    height:217px;
+    width: 200px;
+    min-height: 130px;
+    min-width: 90px;
+    box-shadow: 3px 4px 6px rgb(171, 171, 171);
+    padding: 10px;
+    margin: 10px;
+    flex-basis :calc(50% - 20px);
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 2px;
+}
+.back_img_1{
+    background-image: url('https://smartdata.tonytemplates.com/cleaning-service-v3/ele-demo2/wp-content/uploads/sites/6/2021/08/index-service-house-1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.back_img_2{
+    background-image: url('https://smartdata.tonytemplates.com/cleaning-service-v3/ele-demo2/wp-content/uploads/sites/6/2021/08/index-service-house-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.back_img_3{
+    background-image: url('https://smartdata.tonytemplates.com/cleaning-service-v3/ele-demo2/wp-content/uploads/sites/6/2021/08/index-service-house-3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.back_img_4{
+    background-image: url('https://smartdata.tonytemplates.com/cleaning-service-v3/ele-demo2/wp-content/uploads/sites/6/2021/08/index-service-house-4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.class_row{
+    height: 100%;
+}
+.background_calcule{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.text_calcule{
+    padding-right: 30px;
+}
+.title_overlay{
+    width: 100%;
+    height: 0;
+    background-color: #000000b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: White;
+    transition: .5s ease;
+    font-size: 0px;
+    cursor: pointer;
+    
+}
+.title_overlay span{
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Mulish', sans-serif;
+}
+.image:hover .title_overlay{
+    height: 100%;
+    font-size: 17px;
+}
+@media screen and (max-width:360px){
+    .h2_widget{
+        font-size: large;
+        min-width: 90%;
+    }
+   
+    .class_container_home{
+       width:100% ;
+       min-width: 280px;
+    }
+    .p1_widget{
+        font-size:small;
+    }
+}       
+@media screen and (max-width:496px){
+    .h2_widget{
+        font-size: 30px;
+    }
+    .p1_widget{
+        margin-top: 10px;
+        width :300px;
+    }
+    .animation{
+        margin-top: 20px;
+    }
+    .image{
+        height:190px;
+    }
+} 
+@media screen and (max-width:283px) {
+    .class_container_home{
+       width:100% ;
+       max-width: 270px;
+       min-width: none;
+       width: 270px;
+       overflow-x: auto;
+       padding-right: 15px;
+    }
+    .h2_widget{
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .h5_widget{
+        font-size: large;
+        max-width: 200px;
+    }
+    .p1_widget{
+        min-width: none;
+        max-height: none;
+        height: 130px;
+        word-wrap: break-word;
+        padding: 18px;
+        margin-top: 10px;
+        width :90%;
+        position: relative;
+        right: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        max-height: 90px;
+    }
+    .image:hover .title_overlay{
+        font-size: 14px;
+    }
+    .background_calcule{
+        position: relative;
+        left: 10px;
+    }
+    
+}      

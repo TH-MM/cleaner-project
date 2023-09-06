@@ -1,0 +1,176 @@
+.filter_buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden !important;
+    z-index: 1;
+    margin: 16px auto 30px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #edeff1;
+    border-radius: 55px;
+    height: 55px;
+    width: 70% !important;
+    max-width: 600px;
+    min-width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 0;
+    min-width: 270px;
+  }
+
+  .filter_buttons button {
+    font-size: small;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    list-style: none;
+    padding-top: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: 3px 4px 10px rgb(181, 181, 181);
+  }
+
+  .filter_buttons button:active {
+    background-color: rgb(238, 238, 238);
+    transition: all 0.5s;
+  }
+
+  /* Your custom styles here */
+  .slider {
+    width:90%;
+    margin: 0 auto;
+    visibility: visible;
+    position: absolute;
+    text-align: center;
+    max-width:1270px;
+    min-height: 570px;
+    overflow: hidden;
+  }
+
+  .slider.hidden {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .cntnr_slider {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    overflow-x: hidden;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+  }
+
+  .card {
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    box-shadow:3px 4px 8px rgba(209, 209, 209, 0.624) !important;
+  }
+
+  .plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #edeff1;
+    height: 500px;
+  }
+
+  .h1_plan {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    border-bottom: 1px solid #edeff1;
+    color: #4b5b68;
+    margin: 0;
+  }
+
+  .durée {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #edeff1;
+  }
+
+  .durée p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+    list-style: none;
+    color: #677d8f;
+    text-align: center;
+  }
+
+  .durée h1 {
+    font-size: 92px;
+    font-weight: 600;
+    color: #56cc84;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .durée h1 sup {
+    top: -46px;
+    font-size: 24px;
+    color: #b2b9c1;
+    font-weight: normal;
+  }
+
+  .plan ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px !important;
+  }
+
+  .plan ul li {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    color: #677d8f;
+    text-align: center;
+  }
+
+  .plan a {
+    background-color: #b2b9c1;
+    padding: 10px 30px;
+    margin: 20px 20px 40px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 23px;
+  }
+
+  .cntnr_plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  } 
+
+@media screen and (max-width:508px){
+  .filter_buttons {
+
+    width: 95% !important;
+
+  }
+}

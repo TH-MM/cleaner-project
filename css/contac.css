@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.container h1{
+    color: #4b5b68;
+    padding-bottom: 30px;
+}
+.container_icon_map{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px; 
+    max-width:400px;
+    width: 400px;
+    min-width: none;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #dee0e2;
+    box-shadow: 3px 4px 6px #dee0e2;
+    padding-left:20px;
+    font-size: large;
+}
+.cnt_map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map{
+   padding-top: 10px;
+   max-height: 400px; 
+   max-width:400px;
+   width: 400px;
+   height: 380px;
+   min-width: none;
+   border-radius: 12px;
+   box-shadow: 3px 4px 6px #dee0e2;
+   z-index: -1;
+}
+.contact_icon_container{
+    width:100%;
+    display: flex;
+    justify-content:start;
+    padding: 15px;
+}
+.contact_icon_container p{
+    padding-left: 10px;
+    font-weight: 100;
+    color: #4b5b68;
+}
+.contact_icon_container i{
+   padding-top: 4px;
+}
+.myForm_contact{
+    padding: 18px;
+    border-radius: 12px;
+    border: 1px solid #dee0e2;
+    box-shadow: 3px 4px 6px #dee0e2;
+}
+.myForm_contact button{
+        background-color: #56cc84;
+        color: white;
+}
+.whatssap{
+    border: 1px solid #dee0e2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    font-size: 90px;
+    background-color: #ffffff;
+    box-shadow: 3px 4px 6px #dee0e2;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.whatssap h1{
+    font-size: large;
+    text-align: center;
+}
+@media screen and (max-width:992px){
+    .container_contact_row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container_icon_map{
+        width: 100%;
+    }
+    .container_icon_map{
+        min-width: 100%;
+        max-width: none;
+    }
+    .container_form_contact{
+        min-width: 100%;
+    }
+    .container_icons{
+        min-width: 100%;
+        max-width: none;
+        margin-top: 20px;
+    }
+    .map{
+        min-width: 100%;
+        max-width: none;
+        width: 100%;
+        position: block;
+    }
+}  

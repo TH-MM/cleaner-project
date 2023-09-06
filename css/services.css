@@ -38,7 +38,6 @@
     display: flex;
     flex-direction: column;
     width: 600px;
-    gap: 20px;
 }
 
 .service-article img{
@@ -53,6 +52,11 @@
     letter-spacing: 1.5px;
 }
 
+.service-article .service-description{
+    opacity: 0.7;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
 .service-article p{
     opacity: 0.7;
 }
@@ -87,6 +91,32 @@
     background-color: black;
 }
 
+.reservation-estimation-btn{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.reservation-estimation-btn a{
+    background-color: #56cc84;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: .3s;
+    text-decoration: none;
+}
+.reservation-estimation-btn a:hover{
+    background-color: #42ad6b;
+    font-size: 19px;
+    transition: .3s;
+}
+
 @media (max-width: 1536px) {
     .service-article p{
         font-size: 14px;
@@ -114,6 +144,12 @@
 
     .service-article h4{
         font-size: 14px;
+    }
+
+    .reservation-estimation-btn a{
+
+        width: 180px;
+        height: 60px;
     }
     
 }
@@ -244,6 +280,20 @@
 
     .service-article h4{
         font-size: 12px;
+    }
+
+    .reservation-estimation-btn a{
+        font-size: 14px;
+        width: 120px;
+        height: 60px;
+    }
+
+    .reservation-estimation-btn{
+        gap: 20px;
+    }
+    
+    .reservation-estimation-btn a:hover{
+        font-size: 15px;
     }
     
 }
